@@ -1,0 +1,39 @@
+:root {
+    --Primary-Color: hsl(210, 29%, 24%);
+    --Secondary-Color: hsl(168, 76%, 42%);
+    --Primary-Color-Dark: #1a252f;
+    --Light-Grey: #F0F8FF;
+    --Color-white:white;
+    --Border-Color:#dee2e6;
+}
+
+.content-wrapper {
+    margin-top: 105px; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.line {
+    width: 100px;
+    height: 4.5px;
+
+}
+
+.bg-primary-color {
+    background-color: var(--Primary-Color);
+}
+.primary-color {
+    color: var(--Primary-Color);
+}
+
+.bg-secondary-color {
+    background-color: var(--Secondary-Color);
+}

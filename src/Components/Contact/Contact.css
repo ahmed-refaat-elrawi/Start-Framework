@@ -1,0 +1,34 @@
+h1 {
+    color: var(--Primary-Color);
+}
+
+.form-control {
+    border-top-color: var(--Color-white);
+    border-right-color: var(--Color-white);
+    border-left-color: var(--Color-white);
+
+   
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-top-color: var(--Color-white);
+border-right-color: var(--Color-white);
+border-left-color: var(--Color-white);
+border-bottom-color:var(--Border-Color);
+}
+
+.form-label {
+    color: var(--Secondary-Color);
+}
+
+.btn {
+    background-color: var(--Secondary-Color);
+
+    
+}
+
+.btn:hover {
+    background-color: var(--Secondary-Color);
+    color: var(--Color-white);
+}

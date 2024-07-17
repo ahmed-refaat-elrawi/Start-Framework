@@ -1,0 +1,9 @@
+.footer {
+    background-color: var(--Primary-Color-Dark);
+    color: var(--Light-Grey);
+}
+
+.information {
+    background-color: var(--Primary-Color);
+}
+

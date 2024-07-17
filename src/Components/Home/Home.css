@@ -1,0 +1,10 @@
+.home {
+    background-color: var(--Secondary-Color);
+
+   
+   
+}
+
+.home__avatar {
+    width: 250px;
+}
